@@ -1,12 +1,14 @@
-# Alpen Labs Rust Template
+# Alpen Labs Rust Workspace Template
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache-blue.svg)](https://opensource.org/licenses/apache-2-0)
 [![ci](https://github.com/alpenlabs/rust-template/actions/workflows/lint.yml/badge.svg?event=push)](https://github.com/alpenlabs/rust-template/actions)
 [![docs](https://img.shields.io/badge/docs-docs.rs-orange)](https://docs.rs/rust-template)
 
-This repo is a template for easy setup of a Rust project within
+This repo is a template for easy setup of a Rust workspace project within
 [`AlpenLabs` GitHub organization](https://github.com/alpenlabs).
+If you are looking for the single crate template, you can find it at
+[`alpenlabs/rust-template](https://github.com/alpenlabs/rust-template).
 
 - It comes with a preconfigured `.justfile` for common tasks.
 - Licensing is taken care of, with dual MIT-Apache 2.0 licenses.
