@@ -8,7 +8,7 @@
 This repo is a template for easy setup of a Rust workspace project within
 [`AlpenLabs` GitHub organization](https://github.com/alpenlabs).
 If you are looking for the single crate template, you can find it at
-[`alpenlabs/rust-template](https://github.com/alpenlabs/rust-template).
+[`alpenlabs/rust-template`](https://github.com/alpenlabs/rust-template).
 
 - It comes with a preconfigured `.justfile` for common tasks.
 - Licensing is taken care of, with dual MIT-Apache 2.0 licenses.
