@@ -28,11 +28,11 @@ toml-check-fmt:
 
 # Rust unit tests with `cargo-nextest`
 unit-test:
-  cargo --locked nextest run --all-features --workspace
+  cargo nextest run --all-features --locked --workspace
 
 # Rust documentation tests
 doctest:
-  cargo test --doc --all-features --workspace
+  cargo test --all-features --locked --workspace --doc
 
 # Run all lints and formatting checks
 lints: toml-check-fmt toml-lint check-fmt clippy
